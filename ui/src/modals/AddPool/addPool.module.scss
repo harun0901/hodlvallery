@@ -1,0 +1,59 @@
+.btn {
+  box-shadow: 0 20px 25px rgba(170, 170, 170, 0.2);
+
+  padding: 16px 44px;
+}
+
+.assetForm {
+  padding: 61px 20px 70px 33px;
+}
+
+.swapForm {
+  width: 112px;
+  height: 112px;
+
+  top: calc(100% - 50px);
+  left: calc(50% - 56px);
+
+  box-shadow: 0 20px 45px rgba(170, 170, 170, 0.2);
+}
+
+.receiveForm {
+  padding: 73px 20px 20px 33px;
+}
+
+.body {
+  @apply transition-opacity h-full w-full absolute top-0 left-0;
+}
+
+.inputBlock {
+  height: 103px;
+}
+
+.settingsInput {
+  min-width: 20px;
+}
+
+.yellowBtn {
+  @apply bg-yellow-400 text-white text-sm uppercase font-medium tracking-normal py-4px px-7px;
+  border-radius: 5px;
+}
+
+.toggleWrapper {
+  height: 34px;
+  width: 108px;
+}
+
+.toggleClicker {
+  transition: width 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+
+.toggleClickerOn {
+  width: 47px;
+  transform: translateX(0);
+}
+
+.toggleClickerOff {
+  width: 51px;
+  transform: translateX(51px);
+}

@@ -1,0 +1,15 @@
+.wrapper {
+  width: 228px;
+  height: 73px;
+}
+
+.text {
+  @apply uppercase font-bold text-sm text-gray-400;
+}
+
+.circle {
+  @apply bg-gray-800 flex justify-center items-center rounded-full;
+  width: 34px;
+  height: 34px;
+  filter: drop-shadow(0px 20px 45px rgba(170, 170, 170, 0.2));
+}

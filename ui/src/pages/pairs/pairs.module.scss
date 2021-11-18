@@ -1,0 +1,27 @@
+.wrapper {
+  width: 1642px;
+}
+
+.tokenWrapper {
+  @apply h-110px rounded-full bg-white border-3 bg-gray-260 flex items-center px-30px;
+  width: 48.5%;
+}
+
+.graphicFormWrapper {
+  width: 48.5%;
+  height: 392px;
+}
+
+.fieldInfoWrapper {
+  @apply inline-flex align-top;
+  width: 31.5%;
+}
+
+.title {
+  @apply font-medium text-22px tracking-normal text-gray-800 uppercase;
+}
+
+.compareGraphicFormWrapper {
+  width: 48.3%;
+  height: 425px;
+}

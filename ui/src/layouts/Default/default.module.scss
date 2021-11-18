@@ -1,0 +1,33 @@
+.logoWrapper {
+  top: 46px;
+  left: 61px;
+
+  width: 280px;
+  height: 42px;
+
+  &>div {
+    overflow: visible !important;
+  }
+
+  img {
+    filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.3));
+  }
+}
+
+.menuWrapper {
+  top: 33px;
+  right: 47px;
+}
+
+.notificationWrapper {
+  bottom: 73px;
+}
+
+.mapWrapper {
+  bottom: 68px;
+  right: 59px;
+}
+
+.contentWrapper {
+  padding-top: 100px;
+}

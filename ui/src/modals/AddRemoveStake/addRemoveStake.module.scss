@@ -1,0 +1,54 @@
+.body {
+  @apply transition-opacity h-full w-full absolute top-0 left-0;
+}
+
+.assetForm {
+  padding: 67px 30px 39px 66px;
+}
+
+.swapForm {
+  width: 112px;
+  height: 112px;
+
+  top: calc(100% - 50px);
+  left: calc(50% - 56px);
+
+  box-shadow: 0 20px 45px rgba(170, 170, 170, 0.2);
+}
+
+.receiveForm {
+  padding: 56px 40px 20px 64px;
+}
+
+.title {
+  @apply font-medium text-xl text-gray-400 text-opacity-60 uppercase tracking-normal;
+  min-width: 187px;
+}
+
+.value {
+  @apply font-medium text-xl text-gray-400 uppercase tracking-normal;
+}
+
+.leftColumn {
+  width: 61%;
+}
+
+.rightColumn {
+  width: 39%;
+}
+
+.infoRow {
+  @apply flex items-center;
+  margin-bottom: 11px;
+}
+
+.calcColumn {
+  @apply flex flex-col;
+  min-width: 186px;
+}
+
+.yellowBtn {
+  @apply bg-yellow-400 text-white text-sm uppercase font-medium tracking-normal pt-5px px-9px pb-3px;
+  border-radius: 5px;
+  box-shadow: 0 12px 15px rgba(255, 196, 0, 0.27);
+}

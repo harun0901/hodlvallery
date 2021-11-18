@@ -1,0 +1,12 @@
+.wrapper {
+  box-shadow: 0 25px 30px rgba(219, 0, 0, 0.31);
+}
+
+.text {
+  letter-spacing: 0.107em;
+}
+
+.delimiter {
+  @apply border-0 bg-white bg-opacity-20 w-5px h-full;
+  min-height: 50px;
+}

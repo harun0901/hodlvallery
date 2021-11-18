@@ -1,0 +1,98 @@
+.form {
+  width: 1210px;
+  height: 600px;
+
+  box-shadow: 0 35px 65px rgba(78, 78, 78, 0.15);
+  backdrop-filter: blur(50px);
+  background: rgba(245, 245, 245, 0.8);
+}
+
+.formSmall {
+  width: 1080px;
+}
+
+.formMiddle {
+  width: 1088px;
+}
+
+.formExtraSmall {
+  width: 528px;
+}
+
+.leftPanel {
+  width: 43.5%;
+
+  padding: 52px 63px;
+}
+
+.noBottomPadding {
+  padding-bottom: 0;
+}
+
+.leftPanelSmall {
+  width: 51%;
+}
+
+.leftPanelMedium {
+  width: 48.5%;
+}
+
+.rightPanel {
+  width: 56.5%;
+}
+
+.rightPanelSmall {
+  width: 49%;
+}
+
+.rightPanelMedium {
+  width: 51.5%;
+}
+
+.panelFull {
+  width: 100%;
+}
+
+.confirmationTopPanel {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.firstLine {
+  font-size: 45px;
+  line-height: 50px;
+
+  text-indent: 4px;
+}
+
+.secondLine {
+  font-size: 90px;
+  line-height: 90px;
+}
+
+.secondLineSmall {
+  font-size: 80px;
+  line-height: 90px;
+}
+
+.formDetailsWrapper {
+  top: calc(100% + 10px);
+}
+
+.confirmationWalletWrapper {
+  height: 150px;
+}
+
+.confirmationImageWrapper {
+  width: 600px;
+  bottom: -120px;
+  left: -60px;
+}
+
+.mainIconWrapper {
+  position: absolute;
+  left: -100px;
+  width: calc(100% + 200px);
+  bottom: -100px;
+  height: 510px;
+}

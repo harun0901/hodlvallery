@@ -1,0 +1,11 @@
+.form {
+  padding: 61px 78px 33px 70px;
+}
+
+.changableBlock {
+  height: 430px;
+}
+
+.body {
+  @apply transition-opacity h-full w-full absolute top-0 left-0;
+}

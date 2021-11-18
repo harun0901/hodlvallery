@@ -1,0 +1,39 @@
+.ring1 {
+  width: 52px;
+  height: 52px;
+}
+
+.ring2 {
+  width: 38px;
+  height: 38px;
+}
+
+.ring3 {
+  width: 24px;
+  height: 24px;
+}
+
+.body {
+  @apply transition-opacity h-full w-full absolute top-0 left-0;
+  padding: 45px 30px 45px 86px;
+}
+
+.bodyDetails {
+  padding: 22px 30px 45px 58px;
+}
+
+.infoRow {
+  width: 87.5%;
+}
+
+.manageRow {
+  padding-left: 89px;
+}
+
+.detailsForm {
+  padding: 42px 10px 10px 32px;
+}
+
+.detailDescription {
+  min-height: 118px;
+}

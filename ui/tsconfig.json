@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+//      "app/core": ["analytics/core/index.ts"],
+//      "app/core/api": ["analytics/core/api/index.ts"],
+//      "app/core/apollo": ["analytics/core/apollo/index.ts"],
+//      "app/core/chart": ["analytics/core/chart.ts"],
+//      "app/core/constants": ["analytics/core/constants.ts"],
+//      "app/core/conversions": ["analytics/core/conversions.ts"],
+//      "app/core/format": ["analytics/core/format.ts"],
+//      "app/core/hooks": ["analytics/core/hooks.ts"],
+//      "app/core/queries": ["analytics/core/queries/index.ts"],
+//      "app/core/timestamps": ["analytics/core/timestamps.ts"]
+    },
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "downlevelIteration": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

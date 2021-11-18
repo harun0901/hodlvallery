@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'Gotham Rounded';
+  src: local('Gotham Rounded'), url('/fonts/GothamRounded/GothamRounded-Light.eot');
+  src: local('Gotham Rounded'), url('/fonts/GothamRounded/GothamRounded-Light.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/GothamRounded/GothamRounded-Light.woff') format('woff'),
+  url('/fonts/GothamRounded/GothamRounded-Light.otf') format('opentype'),
+  url('/fonts/GothamRounded/GothamRounded-Light.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Rounded';
+  src: local('Gotham Rounded'), url('/fonts/GothamRounded/GothamRounded-Medium.eot');
+  src: local('Gotham Rounded'), url('/fonts/GothamRounded/GothamRounded-Medium.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/GothamRounded/GothamRounded-Medium.woff') format('woff'),
+  url('/fonts/GothamRounded/GothamRounded-Medium.otf') format('opentype'),
+  url('/fonts/GothamRounded/GothamRounded-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham Rounded';
+  src: local('Gotham Rounded'), url('/fonts/GothamRounded/GothamRounded-Bold.eot');
+  src: local('Gotham Rounded'), url('/fonts/GothamRounded/GothamRounded-Bold.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/GothamRounded/GothamRounded-Bold.woff') format('woff'),
+  url('/fonts/GothamRounded/GothamRounded-Bold.otf') format('opentype'),
+  url('/fonts/GothamRounded/GothamRounded-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+//@font-face {
+//  font-family: 'Poppins';
+//  src: local('Poppins'), url('./Poppins-Regular.ttf')  format('truetype');
+//
+//  font-weight: 400;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'Poppins';
+//  src: local('Poppins'), url('./Poppins-Medium.ttf')  format('truetype');
+//
+//  font-weight: 500;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'Poppins';
+//  src: local('Poppins'), url('./Poppins-SemiBold.ttf')  format('truetype');
+//
+//  font-weight: 600;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'Poppins';
+//  src: local('Poppins'), url('./Poppins-Bold.ttf')  format('truetype');
+//
+//  font-weight: 700;
+//  font-style: normal;
+//}
+
+//@font-face {
+//	font-family: 'GothamHTF';
+//	src: local('GothamHTF'), url('GothamHTF-Book.eot');
+//	src: local('GothamHTF'), url('GothamHTF-Book.eot?#iefix') format('embedded-opentype'),
+//	url('GothamHTF-Book.woff') format('woff'),
+//	url("GothamHTF-Book.otf") format("opentype"),
+//	url('GothamHTF-Book.ttf')  format('truetype');
+//	font-weight: 400;
+//	font-style: normal;
+//	font-display: swap;
+//}
+//
+//@font-face {
+//	font-family: 'GothamHTF';
+//	src: local('GothamHTF'), url('GothamHTF-Medium.eot');
+//	src: local('GothamHTF'), url('GothamHTF-Medium.eot?#iefix') format('embedded-opentype'),
+//	url('GothamHTF-Medium.woff') format('woff'),
+//	url("GothamHTF-Medium.otf") format("opentype"),
+//	url('GothamHTF-Medium.ttf')  format('truetype');
+//	font-weight: 500;
+//	font-style: normal;
+//	font-display: swap;
+//}
+//
+//@font-face {
+//	font-family: 'GothamHTF';
+//	src: local('GothamHTF'), url('GothamHTF-Bold.eot');
+//	src: local('GothamHTF'), url('GothamHTF-Bold.eot?#iefix') format('embedded-opentype'),
+//	url('GothamHTF-Bold.woff') format('woff'),
+//	url("GothamHTF-Bold.otf") format("opentype"),
+//	url('GothamHTF-Bold.ttf')  format('truetype');
+//	font-weight: 600;
+//	font-style: normal;
+//	font-display: swap;
+//}
+
+// thin - 100
+// light - 200 +
+// regular - 400 +
+// medium - 500 +
+// bold - 600 +
+// black - 700
+// ultra - 800

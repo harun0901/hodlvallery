@@ -1,0 +1,6 @@
+<svg id="help" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+  <path id="Path_296" d="M11.962,2a9.962,9.962,0,1,0,9.962,9.962A9.962,9.962,0,0,0,11.962,2Zm0,18.5A8.539,8.539,0,1,1,20.5,11.962,8.539,8.539,0,0,1,11.962,20.5Z" transform="translate(-0.577 -0.577)"/>
+  <circle id="Ellipse_67" cx="1.067" cy="1.067" r="1.067" transform="translate(10.318 15.655)"/>
+  <path id="Path_297" d="M15.27,8H14.2A3.2,3.2,0,0,0,11,11.2v.356h1.423V11.2A1.779,1.779,0,0,1,14.2,9.423H15.27a1.779,1.779,0,1,1,0,3.558H13.846v3.2H15.27V14.4a3.2,3.2,0,1,0,0-6.4Z" transform="translate(-3.172 -2.307)"/>
+  <rect id="Rectangle_533" width="23" height="23" fill="none"/>
+</svg>

@@ -1,0 +1,26 @@
+@import 'react-perfect-scrollbar/dist/css/styles.css';
+
+.ps__rail-y {
+  background-color: rgba(120, 129, 144, 0.1) !important;
+  width: 3px;
+
+  transform: translateX(-1px);
+}
+
+.ps__thumb-y {
+  background-color: #788190 !important;
+  width: 5px !important;
+  transform: translateX(3px);
+}
+
+.ps--scrolling-x > .ps__rail-x, .ps--scrolling-y > .ps__rail-y {
+  opacity: 1 !important;
+}
+
+.ps:hover > .ps__rail-y {
+  opacity: 1;
+}
+
+.ps__rail-y.ps--clicking .ps__thumb-y {
+  opacity: 1;
+}

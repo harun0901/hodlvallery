@@ -1,0 +1,28 @@
+.btn {
+  width: 269px;
+  height: 100px;
+}
+
+.btnSmall {
+  width: 159px;
+  height: 66px;
+}
+
+.btnExtraSmall {
+  width: 99px;
+  height: 47px;
+}
+
+.btnNormal {
+  width: 274px;
+  height: 66px;
+}
+
+.btnActive {
+  box-shadow: 0 12px 15px rgba(0, 98, 255, 0.2);
+}
+
+.btnGhost {
+  @apply bg-gray-210 text-gray-400 border-3 border-white;
+  box-shadow: 0 20px 25px rgba(170, 170, 170, 0.4);
+}

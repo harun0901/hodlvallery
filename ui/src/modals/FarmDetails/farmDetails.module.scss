@@ -1,0 +1,37 @@
+.assetForm {
+  padding: 67px 20px 39px 66px;
+}
+
+.receiveForm {
+  padding: 38px 40px 20px 65px;
+}
+
+.title {
+  @apply font-medium text-xl text-gray-400 text-opacity-60 uppercase tracking-normal;
+  min-width: 187px;
+}
+
+.value {
+  @apply font-medium text-xl text-gray-400 uppercase tracking-normal;
+}
+
+.leftColumn {
+  width: 61%;
+}
+
+.rightColumn {
+  width: 39%;
+}
+
+.infoRow {
+  @apply flex items-center;
+  margin-bottom: 11px;
+}
+
+.inputWrapper {
+  @apply rounded-full border-3 border-white bg-opacity-60 border-opacity-60 bg-gray-220 flex flex-col items-end px-20px px-34px py-22px;
+  width: 268px;
+  height: 100px;
+
+  box-shadow: inset 0 3px 15px rgba(0, 0, 0, 0.16);
+}

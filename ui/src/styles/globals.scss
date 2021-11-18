@@ -1,0 +1,46 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import "fonts";
+@import "toastify";
+@import "dropdown";
+@import "table";
+@import "perfectScrollbar";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Gotham Rounded, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 500;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.05em;
+  outline: none;
+  box-shadow: none;
+
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.blurWrapper {
+  @apply bg-white bg-opacity-5;
+  backdrop-filter: blur(40px);
+}

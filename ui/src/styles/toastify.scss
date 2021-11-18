@@ -1,0 +1,48 @@
+.Toastify {
+  &__toast, &__toast-body, &__toast-container {
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    box-shadow: none;
+
+    &>div {
+      width: 100%;
+    }
+  }
+
+  &__toast-container {
+    width: 900px;
+
+    padding-top: 183px;
+  }
+
+  &__toast {
+    overflow: visible;
+  }
+
+  &__toast-icon {
+    display: none;
+  }
+
+  &__close-button {
+    background-image: url('/icons/iconCross.svg');
+    background-position: center;
+    background-size: cover;
+
+    width: 24px;
+    height: 24px;
+
+    position: absolute;
+
+    top: calc(50% - 10px);
+    right: 38px;
+
+    cursor: pointer;
+
+    opacity: 1;
+
+    svg {
+      display: none;
+    }
+  }
+}
